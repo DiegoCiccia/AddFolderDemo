@@ -1,10 +1,14 @@
 VERSION 18
 
-POSITION . . 410 250
+POSITION . . 150 250
 
 DIALOG main, label("Survey Selector - Evaluation Lab") tabtitle("Main")
 BEGIN
-  TEXT     tx_gen      10  10   120  ., label("Generate variable:")
+  TEXT     tx_gen      10  10   120  100, label("Select the directory:")
+  RADIO    r1          10  40   120  ., first label("Schede Beneficiario")
+  RADIO    r2          10  70   120  ., middle label("Rilev. Baseline")
+  RADIO    r3          10  100   120  ., middle label("Rilev. Endline 1")
+  RADIO    r4          10  130   120  ., last label("Rilev. Endline 2")
 END
 
 OK ok1,      label("OK")
