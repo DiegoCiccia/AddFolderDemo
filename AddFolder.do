@@ -1,3 +1,3 @@
-net install survey_sel, from("https://raw.githubusercontent.com/DiegoCiccia/AddFolderDemo/main") replace
+net install survey_sel, from("https://github.com/DiegoCiccia/AddFolderDemo.git") replace
 
 db mygenerate
