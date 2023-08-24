@@ -5,7 +5,8 @@ POSITION . . 410 250
 DIALOG main, label("Survey Selector - Evaluation Lab") tabtitle("Main")
 BEGIN
   TEXT     tx_gen      10  10   120  ., label("Generate variable:")
-  RADIO    r1          30  10   120  ., label("Schede Beneficiario")
+  RADIO    r1          30  30   120  ., label("Schede Beneficiario")
+  RADIO    r2          50  50   120  ., label("Schede Beneficiario")
 END
 
 OK ok1,      label("OK")
