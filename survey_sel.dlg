@@ -5,8 +5,9 @@ POSITION . . 410 250
 DIALOG main, label("Survey Selector - Evaluation Lab") tabtitle("Main")
 BEGIN
   TEXT     tx_gen      10  10   120  ., label("Generate variable:")
-  RADIO    r1          30  30   120  ., label("Schede Beneficiario")
-  RADIO    r2          50  50   120  ., label("Schede Beneficiario")
+  GROUPBOX radios 10 10 300 200, label("Folders")
+  RADIO    r1          30  30   120  ., label(fold1)
+  RADIO    r2          50  50   120  ., label(fold2)
 END
 
 OK ok1,      label("OK")
