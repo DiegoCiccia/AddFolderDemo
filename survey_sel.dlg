@@ -12,4 +12,5 @@ CANCEL can1, label("Cancel")
 
 PROGRAM command
 BEGIN
+  put "local tabule Yes"
 END
