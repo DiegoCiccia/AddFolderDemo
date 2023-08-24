@@ -4,7 +4,7 @@ POSITION . . 410 250
 
 DIALOG main, label("Survey Selector - Evaluation Lab") tabtitle("Main")
 BEGIN
-  RADIO     schede      50   10   120  ., first label("Scheda Beneficiario")
+  RADIO     r1      50   10   120  ., first label("Scheda Beneficiario")
 END
 
 OK ok1,      label("OK")
