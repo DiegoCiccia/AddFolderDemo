@@ -5,9 +5,9 @@ POSITION . . 410 250
 DIALOG main, label("Survey Selector - Evaluation Lab") tabtitle("Main")
 BEGIN
   RADIO     schede      10   10   120  ., first label("Scheda Beneficiario")
-  RADIO     baseline   100    10   120  ., middle label("Baseline")
-  RADIO     endline_1  150    10  120  ., middle label("Endline 1")
-  RADIO     endline_2  200    10   120  ., last label("Endline 2")
+  RADIO     baseline   100   10   120  ., middle label("Baseline")
+  RADIO     endline_1  150   10   120  ., middle label("Endline 1")
+  RADIO     endline_2  200   10   120  ., last label("Endline 2")
 END
 
 OK ok1,      label("OK")
@@ -15,6 +15,4 @@ CANCEL can1, label("Cancel")
 
 PROGRAM command
 BEGIN
-    if 
-    put "local folder "
 END
