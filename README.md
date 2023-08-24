@@ -1,2 +1,2 @@
 # AddFolderDemo
-AddFolder dlg program - Evaluation Lab Only
+AddFolder dlg program - Demo
