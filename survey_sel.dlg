@@ -44,137 +44,137 @@ BEGIN
   stata 
   clear
   if main.r1 {
-     put "local folder = 1"
+     put "global folder = 1"
      stata
      clear
   }
   if main.r2 {
-    put "local folder = 2"
+    put "global folder = 2"
      stata
      clear
   }
   if main.r3 {
-    put "local folder = 3"
+    put "global folder = 3"
     stata
     clear
   }
   if main.r4 {
-    put "local folder = 4"
+    put "global folder = 4"
     stata
     clear
   }
 if main.proj1 {
-        put "local proj1 = 1"
+        put "global proj1 = 1"
        stata
        clear
  }
 if main.proj2 {
-        put "local proj2 = 1"
+        put "global proj2 = 1"
        stata
        clear
  }
 if main.proj3 {
-        put "local proj3 = 1"
+        put "global proj3 = 1"
        stata
        clear
  }
 if main.proj4 {
-        put "local proj4 = 1"
+        put "global proj4 = 1"
        stata
        clear
  }
 if main.proj5 {
-        put "local proj5 = 1"
+        put "global proj5 = 1"
        stata
        clear
  }
 if main.proj6 {
-        put "local proj6 = 1"
+        put "global proj6 = 1"
        stata
        clear
  }
 if main.proj7 {
-        put "local proj7 = 1"
+        put "global proj7 = 1"
        stata
        clear
  }
 if main.proj8 {
-        put "local proj8 = 1"
+        put "global proj8 = 1"
        stata
        clear
  }
 if main.proj9 {
-        put "local proj9 = 1"
+        put "global proj9 = 1"
        stata
        clear
  }
 if main.proj10 {
-        put "local proj10 = 1"
+        put "global proj10 = 1"
        stata
        clear
  }
 if main.proj11 {
-        put "local proj11 = 1"
+        put "global proj11 = 1"
        stata
        clear
  }
 if main.proj12 {
-        put "local proj12 = 1"
+        put "global proj12 = 1"
        stata
        clear
  }
 if main.proj13 {
-        put "local proj13 = 1"
+        put "global proj13 = 1"
        stata
        clear
  }
 if main.proj14 {
-        put "local proj14 = 1"
+        put "global proj14 = 1"
        stata
        clear
  }
 if main.proj15 {
-        put "local proj15 = 1"
+        put "global proj15 = 1"
        stata
        clear
  }
 if main.proj16 {
-        put "local proj16 = 1"
+        put "global proj16 = 1"
        stata
        clear
  }
 if main.proj17 {
-        put "local proj17 = 1"
+        put "global proj17 = 1"
        stata
        clear
  }
 if main.proj18 {
-        put "local proj18 = 1"
+        put "global proj18 = 1"
        stata
        clear
  }
 if main.proj19 {
-        put "local proj19 = 1"
+        put "global proj19 = 1"
        stata
        clear
  }
 if main.proj20 {
-        put "local proj20 = 1"
+        put "global proj20 = 1"
        stata
        clear
  }
 if main.proj21 {
-        put "local proj21 = 1"
+        put "global proj21 = 1"
        stata
        clear
  }
 if main.proj22 {
-        put "local proj22 = 1"
+        put "global proj22 = 1"
        stata
        clear
  }
 if main.proj23 {
-        put "local proj23 = 1"
+        put "global proj23 = 1"
        stata
        clear
  }
