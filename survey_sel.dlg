@@ -33,10 +33,6 @@ BEGIN
   CHECKBOX proj21         150  410    120  ., label("2022-FUT-00336")
   CHECKBOX proj22         150  430    120  ., label("2022-FUT-00341")
   CHECKBOX proj23         150  450    120  ., label("2022-FUT-00362")
-  TEXT     tx_sel      10  170   120  100, label("Select the action to perform:")
-  RADIO    a1          10  200   120  ., first label("Add Drop Folders")
-  RADIO    a2          10  230   120  ., middle label("Commit Added Files")
-  RADIO    a3          10  260   120  ., last label("Exit")
 END
 
 OK ok1,      label("OK")
@@ -182,15 +178,4 @@ if main.proj23 {
        stata
        clear
  }
-if main.a1 {
-        put "local a1 = 1"
-       stata
-       clear
- }
-if main.a2 {
-        put "local a2 = 1"
-       stata
-       clear
- }
-
 END
